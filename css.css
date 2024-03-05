@@ -102,6 +102,9 @@ a{
 }
 
 /* RESPONSIVO MENU*/
+#header{
+    width: 80vw;
+}
 
 .hamburguer {
     display: none;
@@ -155,7 +158,7 @@ a{
         width: 100vw;
         height: 100vh;
         background-color: #e5e5f1ee ;
-        clip-path: circle(100px at 90% -15%);
+        clip-path: circle(100px at 90% -25%);
         transition: 1s ease-out;
         z-index: 10;
         
