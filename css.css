@@ -17,17 +17,77 @@ a{
 
 #header{
     background-color: #e5e5f1ee;
-    padding-inline: 16px;
-    
-    
-}
-.cadastrar{
-    margin: 0 auto;
-    width: 100vw;
-    height: 25vw;
-    text-align: center;
 
+    
+    
 }
+.cadastrar {
+    position: absolute; /* Mudança para posição absoluta */
+    z-index: 2; /* Garante que a div cadastrar esteja acima do carousel */
+    margin: 0 auto;
+    background-color: #e5e5f1ee;
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: 3px solid black;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+}
+
+.cadastrar button {
+    background-color: #a7a7f7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.cadastrar button:hover {
+    background-color: #7676d4;
+    scale: 1.2;
+}
+
+.cadastrar h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cadastrar p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: -15px;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Adiciona estilo para o aviso do reCAPTCHA */
+.cadastrar p.recaptcha-notice {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+
 
 .container_form{
     border: 3px dotted #2f2f5e;
@@ -38,7 +98,7 @@ a{
 }
 
 .menu{
-    max-width: 1280px;
+    max-width: 1366px;
     height: 70px;
     margin-inline: auto;
     
@@ -47,7 +107,7 @@ a{
     justify-content: space-between;
 }
 .menu-list #localidade p{
-   font-size: 14px;
+   font-size: 18px;
 }
 #logo img{
     width: 320px;
@@ -63,15 +123,21 @@ a{
     animation: saltitar 1.3s ease-in infinite;
 }
 
+.menu-list .menu-space{
+    padding-left: 20px;
+}
+
 .menu-list{
     list-style-type: none; 
     display: flex;
-    gap: 25px;
+    justify-content: space-around;
+    
     align-items: center;
 }
 
+
 .menu-list a{
-    font-size: 18px;
+    font-size: 22px;
     padding-block: 16px;
 }
 
@@ -118,7 +184,7 @@ a{
 
 /* RESPONSIVO MENU*/
 #header{
-    width: 80vw;
+    width: 100vw;
     background-color: white;
 }
 #logo img{
@@ -150,7 +216,18 @@ a{
     transition: 0.3s;
 }
 
+@media (max-width: 768px) {
+   .cadastrar{
+    position: relative;
+    margin-top: 200px;
+    width: 90vw;
+    margin-bottom: -290px;
+   }
+}
+
 @media (max-width: 1220px){
+
+
     .hamburguer{
         display: block;
         z-index: 100;
@@ -233,7 +310,7 @@ a{
 
 .container-banner{
     overflow: hidden;
-    z-index: -10;
+    z-index: 10;
 }
 
 .carousel{
@@ -252,25 +329,26 @@ a{
     0% {
         transform: translateX(0);
     }
-    25% {
+    16.666% {
         transform: translateX(0);
     }
-    30% {
+    33.333% {
         transform: translateX(-100%);
     }
     50% {
         transform: translateX(-100%);
     }
-    55% {
+    66.666% {
         transform: translateX(-200%);
     }
-    80% {
+    83.333% {
         transform: translateX(-200%);
     }
     100% {
         transform: translateX(-300%);
     }
 }
+
 .cadastro {
     width: 250px;
     height: 300px;
@@ -362,9 +440,14 @@ a{
     .texto-boost{
         text-align: center;
     }
+
+   
+    
     
 
 }
+
+
 @media screen and (max-width: 1221px) {
    
     .parceiro{
@@ -377,6 +460,15 @@ a{
     }
     .parceiro p{
         font-size: 14px;
+    }
+
+    
+
+    .cadastrar p.recaptcha-notice {
+        font-size: 12px;
+        color: gray;
+        margin-top: 10px;
+        margin-bottom: -5px;
     }
 
     
