@@ -5,56 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garment X</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./css.css">
+    <script defer src="js.js"></script>
+    
 </head>
 <body>
 
-    <header id="cabprincipal">
+    <header id="header">
 
-        <div id="cabecalho">
+        <nav class="menu">
 
-            <div id="logo">
-                <img src="./imgs/garmentx.png" alt="">
-            </div>
+                <div id="logo">
+                    <img src="./imgs/garmentx.png" alt="">
+                </div>
 
-            <div id="localidade">
-                <div class="animat"><img src="./imgs/pointer.png" alt=""></div>
-                <p><span class="roxo">Informe sua cidade</span>
-                para <br> ver condições exclusivass</p>
-                
-            </div>
+                <button class="hamburguer"></button>
 
-            <div id="menu">
-                <span><a href="">Cadastrar Loja</a></span>
-                <span><a href="">Como funciona</a></span>
-                <span><a href="">Ajuda</a></span>
-                <span><a href="">Aplicativo</a></span>
-            </div>
+                <ul class="menu-list">
+ 
+                    <li><span id="localidade"><img src="./imgs/pointer.png" alt=""><p><span class="roxo">Informe sua cidade</span>
+                    para <br> ver condições exclusivas</p></span></li>
+                    <li><span><a href="/">Cadastrar Loja</a></span></li>
+                    <li><span><a href="/">Como funciona</a></span></li>
+                    <li><span><a href="/">Ajuda</a></span></li>
+                    <li><span><a href="/">Aplicativo</a></span></li>
+                    <li><span class="botaoentrar"><a href="/">Entrar</a></span></li>
+                    <li><span class="botaocadastrar"><a href="#">Cadastrar</a></span></li>
 
-            <div id="log">
-                <span class="botaoentrar"><a href="#">Entrar</a></span>
-                <span class="botaocadastrar"><a href="#">Cadastrar</a></span>
-            </div>
+                </ul>
 
-        </div>
+        </nav>
 
     </header>
 
     <section id="banner">
-
-        <div class="imgpadrao">
-            <div class="quadrado"></div>
-            <div class="quadrado"></div>
+    <div class="container-banner">
+        <div class="carousel">
+            <img src="./imgs/mulher.png" alt="">
+            <img src="./imgs/mulher2.png" alt="">
+            <img src="./imgs/mulher3.png" alt="">
+            <img src="./imgs/mulher3.png" alt="">
         </div>
+        <!-- <div class="cadastro">oi</div> -->
+    </div>
+    
 
-        
-
+    </div>
     </section>
-    
-    
-
-      
+   
+    <section id="boost">
+        <div class="img-boost">
+            <img src="./imgs/boost-img.png" alt="">
+        </div>
+        <div class="texto-boost">
+            <h1>Seu negócio pede visibilidade pra vender mais!</h1>
+            <p>Com o GarmentX, você conecta sua loja a milhões de novos clientes, expande sua área de entrega e vende muito mais.
+            </p><br>
+            <p>Utilize nossas ferramentas de marketing para ter mais visibilidade e chegar a milhões de pessoas que amam pedir roupa pelo app.</p>
+        </div>
+    </section>
 
 </body>
 </html>
