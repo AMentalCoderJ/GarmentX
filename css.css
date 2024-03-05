@@ -134,6 +134,20 @@ a{
         z-index: 100;
     }
 
+    .carousel{
+        width: 100vw;
+        display: flex;
+        animation: slide 16s infinite;
+    }
+    
+    
+    .carousel img {
+        height: 60vh;
+        object-fit: cover;
+        
+    }
+    
+
     .menu-list{
         position: fixed;
         top: 0;
@@ -157,6 +171,7 @@ a{
         .menu-list a, p, #localidade img{
             font-size: 24px;
         }
+
 
        
 
@@ -275,10 +290,13 @@ a{
         flex-direction: column;
     }
     .img-boost img{
-        width: 210px;
+        width: 130px;
     }
     .texto-boost h1{
-        font-size: 28px;
+        font-size: 22px;
+    }
+    .texto-boost p {
+        font-size: 14px;
     }
 
     .texto-boost{
