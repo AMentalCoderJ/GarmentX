@@ -300,12 +300,13 @@ a{
 #boost-itens h1{
     text-align: center;
     font-size: 32px;
+    margin-bottom: 80px;
 }
 .parceiro{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    margin: 20px;
+    
 }
 
 .cont-parc img{
@@ -350,10 +351,15 @@ a{
 
 }
 @media screen and (max-width: 1221px) {
+   
     .parceiro{
         flex-direction: column;
         align-items: center;
     }
+    .cont-parc{
+        margin-bottom: 30px;
+    }
+
     
     
  }
