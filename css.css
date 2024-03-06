@@ -22,8 +22,8 @@ a{
     
 }
 .cadastrar {
-    position: absolute; /* Mudança para posição absoluta */
-    z-index: 2; /* Garante que a div cadastrar esteja acima do carousel */
+    position: absolute; 
+    z-index: 2; 
     margin: 0 auto;
     background-color: #e5e5f1ee;
     width: 450px;
@@ -224,6 +224,16 @@ input {
     margin-bottom: -290px;
    }
 }
+
+@media (max-width: 1024px) {
+    .cadastrar{
+     position: relative;
+     margin-top: 200px;
+     width: 90vw;
+     margin-right: 120px;
+     margin-bottom: -290px;
+    }
+ }
 
 @media (max-width: 1220px){
 
