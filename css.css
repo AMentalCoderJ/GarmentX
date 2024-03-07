@@ -625,18 +625,18 @@ input {
 @media (max-width:500px) {
     .abaplano{
         height: 100% !important;
-        margin: 15px 5px;
+        margin: 15px 25px;
     }
     .conteudoplano{
         margin: 0;
     }
     .h1plano div{
-        width: 250px;
+        width: 230px;
         font-size: 12px;
     }
 
     .h1plano div p{
-        font-size: 15px;    
+        font-size: 14px !important;    
     }
       
 }
