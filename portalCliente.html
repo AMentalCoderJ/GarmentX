@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="imgs/garmentx.png" alt="" />
+          </div>
+          <div class="logo-2">
+            <img src="imgs/logo-2.png" alt="">
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-symbols-outlined">close</span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="#" class="active">
+            <span class="material-symbols-outlined">home</span>
+            <h3>Início</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-symbols-outlined">star</span>
+            <h3>Avaliação</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-symbols-outlined"> receipt_long </span>
+            <h3>Pedidos</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-symbols-outlined"> attach_money </span>
+            <h3>Financeiro</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-symbols-outlined"> widgets </span>
+            <h3>Catálogo</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h3>Áreas de entrega</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-symbols-outlined"> schedule </span>
+            <h3>Horário</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-symbols-outlined"> add </span>
+            <h3>Add Produtos</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-symbols-outlined"> logout </span>
+            <h3>Sair</h3>
+          </a>
+        </div>
+      </aside>
+
+      <main>
+        <h1>Performance</h1>
+
+        <div class="date">
+          <input type="date" />
+        </div>
+
+        <div class="insights">
+          <div class="sales">
+            <span class="material-symbols-outlined"> equalizer </span>
+            <div class="middle">
+              <div class="lef">
+                <h3>Total Vendas</h3>
+                <h1>R$25,024</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="36" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Últimas 24 horas</small>
+          </div>
+
+          <div class="expenses">
+            <span class="material-symbols-outlined"> donut_large </span>
+            <div class="middle">
+              <div class="lef">
+                <h3>Total Despesas</h3>
+                <h1>R$14,160</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="36" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>62%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Últimas 24 horas</small>
+          </div>
+
+          <div class="income">
+            <span class="material-symbols-outlined"> stacked_line_chart </span>
+            <div class="middle">
+              <div class="lef">
+                <h3>Total Renda</h3>
+                <h1>R$10,864</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="36" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>44%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Últimas 24 horas</small>
+          </div>
+        </div>
+
+        <div class="recent-order">
+          <h2>Pedidos Recentes</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Nome do Produto</th>
+                <th>Código do Produto</th>
+                <th>Pagamento</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Calça Wide Leg</td>
+                <td>85631</td>
+                <td>Due</td>
+                <td class="warning">Pendente</td>
+                <td class="primary">Detalhes</td>
+              </tr>
+
+              <tr>
+                <td>Calça Wide Leg</td>
+                <td>36509</td>
+                <td>Reembolsado</td>
+                <td class="recusado">Recusado</td>
+                <td class="primary">Detalhes</td>
+              </tr>
+
+              <tr>
+                <td>Calça Wide Leg</td>
+                <td>98201</td>
+                <td>Pago</td>
+                <td class="entregue">Entregue</td>
+                <td class="primary">Detalhes</td>
+              </tr>
+
+              <tr>
+                <td>Calça Wide Leg</td>
+                <td>41766</td>
+                <td>Due</td>
+                <td class="warning">Pendente</td>
+                <td class="primary">Detalhes</td>
+              </tr>
+
+              <tr>
+                <td>Calça Wide Leg</td>
+                <td>99853</td>
+                <td>Pago</td>
+                <td class="entregue">Entregue</td>
+                <td class="primary">Detalhes</td>
+              </tr>
+
+              <tr>
+                <td>Calça Wide Leg</td>
+                <td>00482</td>
+                <td>Pago</td>
+                <td class="entregue">Entregue</td>
+                <td class="primary">Detalhes</td>
+              </tr>
+
+              <tr>
+                <td>Calça Wide Leg</td>
+                <td>81475</td>
+                <td>Due</td>
+                <td class="warning">Pendente</td>
+                <td class="primary">Detalhes</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#">Mostrar Todos</a>
+        </div>
+      </main>
+
+      <div class="right">
+        <div class="top">
+          <button>
+            <span class="material-symbols-outlined" id="menu-btn"> menu</span>
+          </button>
+          <div class="theme-toggler">
+            <span class="material-symbols-outlined active">light_mode</span>
+              <span class="material-symbols-outlined">dark_mode</span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p>Admin</p>
+            </div>
+            <div class="profile-photo">
+              <img src="imgs/1600w-M7vSDSw5tD8.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="recent-updates">
+          <h2>Atualizações Recentes</h2>
+          <div class="updates">
+            <div class="update">
+              <div class="profile-photo">
+                <img src="imgs/profile-2.jpg" alt="">
+              </div>
+              <div class="message">
+                <p><b>Lucas Lima</b> recebeu seu pedido Calça Wide Leg.</p>
+                <small class="text-muted">2 Minutos Atrás</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="imgs/profile-3.jpg" alt="">
+              </div>
+              <div class="message">
+                <p><b>Marcella Costa</b> recebeu seu pedido Calça Wide Leg.</p>
+                <small class="text-muted">2 Minutos Atrás</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="imgs/profile-4.jpg" alt="">
+              </div>
+              <div class="message">
+                <p><b>Fernanda da Silva</b> recebeu seu pedido Calça Wide Leg.</p>
+                <small class="text-muted">2 Minutos Atrás</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sales-analytics">
+          <h2>Análise de Vendas</h2>
+          <div class="item online">
+            <div class="icon"> <span class="material-symbols-outlined">
+              devices
+              </span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>Tempo Online</h3>
+                <small class="text-muted">Últimos 7 Dias</small>
+              </div>
+              <h5 class="sucess">+39%</h5>
+              <h3>3849</h3>
+            </div>
+          </div>
+
+          <div class="item offline">
+            <div class="icon"> <span class="material-symbols-outlined">
+              block
+              </span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>Cancelamentos</h3>
+                <small class="text-muted">Últimos 7 Dias</small>
+              </div>
+              <h5 class="recusado">+15%</h5>
+              <h3>1010</h3>
+            </div>
+          </div>
+
+          <div class="item atrasos">
+            <div class="icon"> <span class="material-symbols-outlined">
+              alarm
+              </span>
+            </div>
+            <div class="right">
+              <div class="info">
+                <h3>Atrasos</h3>
+                <small class="text-muted">Últimos 7 Dias</small>
+              </div>
+              <h5 class="sucess">-25%</h5>
+              <h3>22</h3>
+            </div>
+          </div>
+
+          <div class="item add-product">
+            <div>
+              <span class="material-symbols-outlined">
+                add
+                </span>
+                <h3>Add Produtos</h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
