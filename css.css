@@ -222,16 +222,16 @@ input:focus-visible {
     position: relative;
     transition: 0.3s;
 }
-@media (max-width: 815px) {
+@media (max-width: 825px) {
     .menu-space span a{
-        font-size: 38px;
+        font-size: 35px;
         padding-block: 16px;
     }
     .roxo {
-        font-size: 31px;
+        font-size: 32px;
     }
     .muda{
-        font-size: 31px;
+        font-size: 32px;
     }
     #localidade img{
         width: 60px;
