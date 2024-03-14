@@ -216,6 +216,47 @@ input {
     position: relative;
     transition: 0.3s;
 }
+@media (max-width: 1312px) {
+    .cadastrar {
+        background-color: #e5e5f1ee;
+        width: 450px;
+        height: 450px;
+        padding: 10px;     
+       text-align: center;
+        left: 50%;
+        top: 55%;
+        
+    }
+    .menu-list #localidade p{
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0px;
+     }
+     
+     .menu-list li{
+        padding: 0px;
+     }
+
+     label{
+        margin-bottom: 5px;
+     }
+    
+     .menu-list a{
+        font-size: 18px;
+        padding-block: 5px;
+    }
+    
+    .cadastrar p.recaptcha-notice {
+        font-size: 12px;
+        color: gray;
+        margin-top: 10px;
+        margin-bottom: -1px;
+    }
+    
+    
+    
+    
+}
 
 @media (max-width: 768px) {
    .cadastrar{
