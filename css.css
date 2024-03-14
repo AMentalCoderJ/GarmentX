@@ -5,6 +5,7 @@
 body{
     overflow-x: hidden;
     font-family: sans-serif;
+    
 }
 
 
@@ -220,6 +221,27 @@ input:focus-visible {
     background: #000000;
     position: relative;
     transition: 0.3s;
+}
+@media (max-width: 815px) {
+    .menu-space span a{
+        font-size: 38px;
+        padding-block: 16px;
+    }
+    .roxo {
+        font-size: 31px;
+    }
+    .muda{
+        font-size: 31px;
+    }
+    #localidade img{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    .cadastrar{
+        
+    }
+    
 }
 @media (max-width: 1350px) {
     .cadastrar {
